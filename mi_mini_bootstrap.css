@@ -1,0 +1,38 @@
+header {
+    border: 1px solid #000000;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+.banner{
+    border: 1px solid #000000;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+footer{
+    border: 1px solid #000000;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+
+.contenedor_central{
+    border: 1px solid #000000;
+    display: table;
+    width: 100%;     
+ 
+}
+
+.contenedor_central .izquierda,.contenido,.publicidad{
+    border: 1px solid #ff0000;
+    margin-left: 20px;
+    float:left;
+    background-color: antiquewhite;
+}
+
+
+.contenedor_central .izquierda,.publicidad{
+    width: 25%;
+}
+
+.contenedor_central .contenido{
+    width: 44%;
+}
